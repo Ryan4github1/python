@@ -1,0 +1,5 @@
+user=input("Enter your name=")
+print("welcome",user)
+print("apple","banana","mango",sep=",")
+print("hi",end=" ")
+print("hello")
