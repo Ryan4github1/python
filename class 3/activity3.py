@@ -1,0 +1,5 @@
+# name=input("Enter your name: ")
+# print("welcome",name)
+a=int(input("enter n1:"))
+b=int(input("enter n2:"))
+print("sum=",a+b)
