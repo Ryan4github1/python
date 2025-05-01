@@ -1,0 +1,7 @@
+t=(1,"bob",95,51)
+print(t)
+tup=(5,94,19,63,92)
+newtuple=tup+(9, )
+print(newtuple)
+print("count:",newtuple.count(5))
+print(tup[2:5])
