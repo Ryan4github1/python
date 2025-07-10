@@ -1,0 +1,21 @@
+from tkinter import *
+window=Tk()
+window.title("My second GUI")
+window.geometry('500x600')
+lbl=Label(text="type the first number")
+lbl.pack()
+e=Entry()
+e.pack()
+lbl2=Label(text="type the second number")
+lbl2.pack()
+e=Entry()
+e.pack()
+num1 = lbl.pack + lbl2.pack
+def fun():
+    name=e.get()
+    txt.insert(END," the sum is"+ name)
+btn=Button(text="click", comman=fun)
+btn.pack()
+txt=Text(height=3)
+txt.pack()
+window.mainloop()
