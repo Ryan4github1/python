@@ -1,0 +1,18 @@
+from tkinter import*
+root = Tk()
+root.title("Denomination Calculator")
+root.geometry('500x500')
+def fun():
+    tw = Toplevel()
+    tw.title("welcome")
+    tw.geometry('150x150')
+    lbl=Label(master=tw,text="welcome", bg="yellow")
+    lbl.pack()
+    tw1 = Toplevel()
+    tw1.title("go away")
+    tw1.geometry('150x150')
+    lbl=Label(master=tw1,text="welcome", bg="yellow")
+    lbl.pack()
+btn=Button(text="click me", command=fun)
+btn.pack()
+root.mainloop()
