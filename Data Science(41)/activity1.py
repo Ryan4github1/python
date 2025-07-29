@@ -1,0 +1,10 @@
+import numpy as np
+ab=np.array([23, 2, 54, 79, 20])
+print(ab)
+print(type(ab))
+print(ab[4])
+print(ab[1:4])
+sp=np.array(['bob','job','josh'],dtype='S')
+print(sp)
+sp=np.array([3.14,3.141,3.1415,3.14159,3.141592,3.1415926585],dtype='f')
+print(sp)
